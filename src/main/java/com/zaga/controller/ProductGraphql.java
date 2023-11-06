@@ -21,5 +21,6 @@ public class ProductGraphql {
     @Description("Get all products.")
     public List<ProductDetails> getAllProducts() {
         return productService.getallProducts();
+        
     } 
 }
